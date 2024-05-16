@@ -340,6 +340,8 @@ section {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+  align-items: center; /* Ensures vertical alignment is centered */
+
 }
 
 article {
@@ -368,6 +370,8 @@ article .icon {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
+  object-fit: cover; /* Ensures the image covers the dimensions properly */
+
 }
 
 .project-title {
