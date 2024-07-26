@@ -18,6 +18,7 @@
   }
   #hamburger-nav {
     display: flex;
+
   }
   #experience,
   .experience-details-container {
@@ -44,6 +45,21 @@
   }
   .about-containers {
     margin-top: 0;
+  }
+  .menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+    border-radius: 15px; /* Add this line to make the menu rounded */
+  }
+
+  .menu-links.open {
+    max-height: 300px;
   }
 }
 
